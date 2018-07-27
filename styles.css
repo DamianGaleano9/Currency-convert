@@ -1,0 +1,17 @@
+.contents {
+    padding: 60px;
+    height: 250px;
+    width: 600px;
+    background: gray;
+    display: inline-block;
+    margin: 20px;
+}
+
+.main {
+    height: 90px;
+    width: 600px;
+    background:black;
+    color: whitesmoke;
+    margin: 20px;
+    padding: 10px;
+}
