@@ -5,13 +5,19 @@
     background: gray;
     display: inline-block;
     margin: 20px;
+    opacity: 0.9;
 }
 
 .main {
     height: 90px;
     width: 600px;
-    background:black;
-    color: whitesmoke;
+    background: yellow;
+    color: black;
     margin: 20px;
     padding: 10px;
+    opacity: 0.8;
+}
+
+body {
+    background: url("dollar.png");
 }
