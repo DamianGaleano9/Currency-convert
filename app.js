@@ -17,9 +17,9 @@ function coin() {
         } else if (rode >= 10000 ) {
             messageHTML = this.message[1];
         } else if (rode <= 100) {
-            messageHTML = this.message[2];
+            messageHTML = this.message  [2];
         } else {    
-            messageHTML = rode + "Pesos are" + conversionResult + " " + this.name;
+            messageHTML = rode + " " + "Dollars are" + " " + conversionResult + " " + this.name;
         }
 
         document.getElementById('result').innerHTML = messageHTML;
@@ -31,9 +31,26 @@ var pesos = new coin();
     pesos.name = "Pesos";
     pesos.exchangeRate = 2872;
 
-function convertCurrency() {
+var mexicanPesos = new coin();
+    mexicanPesos.name = "mexicanPesos";
+    mexicanPesos.exchangeRate = 18.66;
+
+var euros = new coin();
+    euros.name = "euros";
+    euros.exchangeRate = 0.86;    
+
+function convertCurrency(typeCurrency) {
     var rodeSelected = document.getElementById('rode').value;
-    pesos.convert(rodeSelected);
-}
+
+    if(typeCurrency == "pesos" ) {
+        pesos.convert(rodeSelected);
+    } else if (typeCurrency == "mexicanPesos") {
+        mexicanPesos.convert(rodeSelected);
+    } else if (typeCurrency == "euros") {
+        euros.convert(rodeSelected);
+    }
+
+
+}   
 
 

@@ -1,6 +1,6 @@
 .contents {
     padding: 60px;
-    height: 250px;
+    height: 290px;
     width: 600px;
     background: gray;
     margin: 20px;
@@ -22,7 +22,7 @@
 }
 
 body {
-    background: url("dollar.png");
+    background: url("");
 }
 
 #resultChange {
@@ -44,8 +44,8 @@ body {
 
 .btn-warning {
     height: 50px;
-    width: 320px;
-    color: white;
+    width: 620px;
+    color: black;
 }
 
 .rode-txt {
@@ -61,5 +61,22 @@ body {
     width: 180px;
     height: 40px;
     margin-left: 160px;
+    margin-bottom: 10px;
+
+}
+
+.btn-success {
+    height: 40px;
+    width: 240px;
+    color: white;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+
+.btn-info {
+    width: 180px;
+    height: 40px;
+    margin-left: 160px;
+    margin-bottom: 10px;    
 
 }
