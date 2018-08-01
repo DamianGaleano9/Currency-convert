@@ -3,9 +3,10 @@
     height: 250px;
     width: 600px;
     background: gray;
-    display: inline-block;
     margin: 20px;
     opacity: 0.9;
+    border-radius: 25px;
+    margin-bottom: 0.5px;
 }
 
 .main {
@@ -16,8 +17,49 @@
     margin: 20px;
     padding: 10px;
     opacity: 0.8;
+    border-radius: 25px;
+    margin-bottom: 0.5px;
 }
 
 body {
     background: url("dollar.png");
+}
+
+#resultChange {
+    background: red;
+    width: 600px;
+    height: 90px;
+    padding: 60px;
+    margin-left : 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;;
+
+}
+
+.btn-warning {
+    height: 50px;
+    width: 320px;
+    color: white;
+}
+
+.rode-txt {
+    font-size: 35px;
+    margin-left: 70px;
+}
+
+#rode {
+    text-align: center;
+}
+
+.btn-danger {
+    width: 180px;
+    height: 40px;
+    margin-left: 160px;
+
 }

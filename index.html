@@ -9,14 +9,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="display-4 mb-4 main">Convert Dollars to Pesos</h1>
+    <h1 class="display-4  main">Convert Dollars To Pesos</h1>
     <div class="contents">
-        <label class="display-5">Rode:</label>
+        <label class="display-5 rode-txt">Rode:</label>
         <input id="rode" type="number" placeholder="Dollar amount">
+        <div>
+            <button class="btn btn-danger" onclick="convertCurrency()">
+                Convert to Pesos
+            </button>
+        </div>
+        
+    </div>
 
-        <button class="btn btn-danger" onclick="convertCurrency()">
-            Convert to Pesos
-        </button>
+    <div class="display-4" id="resultChange">
+        <button id="result" class="btn btn-warning btn-lg" >Result</button> 
     </div>
 
     <script src="app.js"></script>
